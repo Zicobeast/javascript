@@ -38,3 +38,29 @@
 let value = 3
 let negValue = -value
 console.log(negValue);
+
+let str1 = "hello"
+let str2 = " Bishal"
+
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);         //->   12         
+console.log(1 + "2");         //->   12
+console.log("1" + "2");       //->   12
+console.log("1" + 2 + 2);     //->   122
+console.log(1 + 2 + "2");     //->   32
+
+console.log(+true);     //-> 1
+console.log(+"");       
+// console.log(true+);  //-> this gives error,
+
+// let num1, num2, num3  this is wrong
+// num1 = num2 = num3 = 2+3
+
+let a = num1 = num2 = num3;     // this is right
+a= 2+3
+console.log(a);
+
+
+
